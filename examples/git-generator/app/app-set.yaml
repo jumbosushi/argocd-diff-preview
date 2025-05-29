@@ -21,6 +21,7 @@ spec:
       name: "{{ .values.name }}"
       annotations:
         argocd-diff-preview/watch-pattern: '{{ .path.path }}/.*'
+        test-annot: 'hi'
       finalizers:
       - resources-finalizer.argocd.argoproj.io
     spec:
