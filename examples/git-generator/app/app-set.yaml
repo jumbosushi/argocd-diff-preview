@@ -10,7 +10,7 @@ spec:
   goTemplateOptions: ["missingkey=error"]
   generators:
     - git:
-        repoURL: https://github.com/dag-andersen/argocd-diff-preview.git
+        repoURL: https://github.com/jumbosushi/argocd-diff-preview.git
         revision: HEAD
         directories:
           - path: examples/git-generator/resources/**
